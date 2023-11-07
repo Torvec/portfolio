@@ -142,8 +142,8 @@
   },
   {
     "title": "Bootcamp Challenges",
-    "description": "All of my bootcamp challenges consolidated into one repository. I decided to do this because I wanted to have a single place where I could showcase all of my work from the bootcamp not included the group projects.",
-    "image": "./assets/img/wedloc.png",
+    "description": "All of my bootcamp challenges consolidated into one repository. I decided to do this because I wanted to have a single place where I could showcase all of my work from the bootcamp not including the group projects.",
+    "image": "./assets/img/bootcampChallenges.png",
     "repository": "https://github.com/Torvec/bootcamp-challenges",
     "deployment": "https://torvec.github.io/bootcamp-challenges/",
     "techStack": [
