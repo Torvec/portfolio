@@ -29,40 +29,10 @@
     "featured": true
   },
   {
-    "title": "ExpressJS Note Taker",
-    "description": "The week 11 challenge was to create a note taking application using Express.js for the back end and connecting it to an already created front-end.",
-    "image": "./assets/img/expressjsNoteTaker.png",
-    "repository": "https://github.com/Torvec/m11_expressjs_note_taker",
-    "deployment": "https://serene-atoll-77959-f9fa0148df22.herokuapp.com/",
-    "techStack": ["HTML", "CSS", "JavaScript", "NodeJS", "ExpressJS"],
-    "dateCompleted": "July 2023",
-    "featured": false
-  },
-  {
-    "title": "MVC Tech Blog",
-    "description": "The week 14 challenge was to create a tech blog using the MVC paradigm.",
-    "image": "./assets/img/mvcTechBlog.png",
-    "repository": "https://github.com/Torvec/m14_mvc_tech_blog",
-    "deployment": "https://torvec-tech-blog-c9896c320b63.herokuapp.com/",
-    "techStack": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "NodeJS",
-      "ExpressJS",
-      "MySQL",
-      "Sequelize",
-      "Handlebars",
-      "Materialize CSS"
-    ],
-    "dateCompleted": "September 2023",
-    "featured": true
-  },
-  {
     "title": "Project 2: Task Titan",
     "description": "A website where you can create, track, edit, delete, and complete tasks. Use Task Titan to CRUSH your tasks to build awesome projects!",
     "image": "./assets/img/tasktitan.png",
-    "repository": "https://github.com/markthos/Task-Titan",
+    "repository": "https://github.com/Torvec/Task-Titan",
     "deployment": "https://task-titan-bec51c55ebe5.herokuapp.com/",
     "techStack": [
       "HTML",
@@ -79,23 +49,6 @@
     ],
     "dateCompleted": "August 2023",
     "featured": true
-  },
-  {
-    "title": "PWA Text Editor",
-    "description": "The week 19 challenge was to create a Progressive Web App (PWA) text editor that uses IndexedDB to store the user's notes and Webpack to bundle the application.",
-    "image": "./assets/img/pwaTextEditor.png",
-    "repository": "https://github.com/Torvec/m19_pwa_text_editor",
-    "deployment": "https://protected-everglades-54484-89ec2b86b857.herokuapp.com/",
-    "techStack": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ExpessJS",
-      "IndexedDB",
-      "Webpack"
-    ],
-    "dateCompleted": "September 2023",
-    "featured": false
   },
   {
     "title": "Portfolio v2.0",
@@ -116,7 +69,7 @@
     "title": "Project 3: WedLoc",
     "description": "WedLoc is not just another wedding platform; it's a one-of-a-kind social hub designed exclusively for wedding photographers and videographers. Our mission is to provide a seamless space for professionals to organize and showcase wedding media, making it easy for couples and guests to relive their special moments. With added features like media comments and real-time chat, we've eliminated the need for attendees to sign up, making the entire experience hassle-free.",
     "image": "./assets/img/wedloc.png",
-    "repository": "https://github.com/markthos/wedloc",
+    "repository": "https://github.com/Torvec/wedloc",
     "deployment": "https://wedloc-84c89e3ae29d.herokuapp.com/",
     "techStack": [
       "React",
@@ -142,7 +95,7 @@
   },
   {
     "title": "Bootcamp Challenges",
-    "description": "All of my bootcamp challenges consolidated into one repository. I decided to do this because I wanted to have a single place where I could showcase all of my work from the bootcamp not including the group projects.",
+    "description": "All of my bootcamp challenges consolidated into a monorepo. I decided to do this because I wanted to have a single place where I could showcase all of my work from the bootcamp not including the group projects.",
     "image": "./assets/img/bootcampChallenges.png",
     "repository": "https://github.com/Torvec/bootcamp-challenges",
     "deployment": "https://torvec.github.io/bootcamp-challenges/",
