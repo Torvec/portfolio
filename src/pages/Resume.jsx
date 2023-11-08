@@ -1,8 +1,6 @@
 // The my resume page component
 
-import PortfolioProjects from "../components/PortfolioProjects";
 import resumeData from "../data/resumeData";
-import { Link as RouterLink } from "react-router-dom";
 
 function Resume() {
   return (
@@ -105,17 +103,6 @@ function Resume() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center bg-orange py-20">
-        <h2 className="mb-10 text-4xl font-semibold uppercase md:text-6xl md:font-normal">
-          Featured Projects
-        </h2>
-        <div className="container m-auto mb-10 px-5 xl:px-0">
-          <PortfolioProjects featured />
-        </div>
-        <button className="rounded-2xl border-2 border-black bg-black px-4 py-1.5 text-lg uppercase text-white transition-all duration-500 ease-in-out hover:border-white hover:font-semibold">
-          <RouterLink to={"/portfolio"}>. . . All Projects</RouterLink>
-        </button>
-      </section>
     </>
   );
 }
