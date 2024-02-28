@@ -6,15 +6,15 @@ import PortfolioProjects from "../components/PortfolioProjects";
 function Home() {
   return (
     <>
-      <section className="flex flex-col items-center bg-lightbluegray pt-32 pb-20">
+      <section className="flex flex-col justify-center items-center bg-lightbluegray py-32 md:py-60 text-center">
         <h1 className="transform-all mb-10 text-6xl font-black uppercase text-black duration-500 ease-in-out hover:tracking-widest md:text-7xl lg:text-9xl">
-          Edward
-          <br />
+          Edward Vonschondorf
+          {/* <br />
           <span className="ml-20 md:ml-40">Von</span>
           <br />
-          Schondorf
+          Vonschondorf */}
         </h1>
-        <h2 className="transform-all bg-orange px-4 py-2 font-mono text-2xl font-bold uppercase text-white duration-500 ease-in-out hover:bg-white hover:tracking-widest hover:text-orange md:text-4xl lg:text-6xl">
+        <h2 className="transform-all bg-orange px-4 py-2 font-mono text-3xl font-bold uppercase text-white duration-500 ease-in-out hover:bg-white hover:tracking-widest hover:text-orange md:text-4xl lg:text-6xl">
           Full Stack Developer
         </h2>
       </section>
@@ -30,15 +30,28 @@ function Home() {
             <h2 className="mb-5 text-center text-6xl uppercase md:text-left">
               About Me
             </h2>
-            <p className="mb-5 px-5 font-mono text-lg md:text-2xl md:px-0">
-              I am currently working in the field of automation controls
+            <p className="mb-5 px-5 font-mono text-lg md:px-0 md:text-2xl">
+              {/* I am currently working in the field of automation controls
               engineering and have accumulated 12 years of experience as a
               technician from my time at Tesla and the United states Navy. Prior
               to that, I spent around 4 years specializing in front-end website
               design and development. Now, I am eager to re-enter the world of
-              web development and surpass my previous accomplishments.
+              web development and surpass my previous accomplishments. */}
+              Hi there! I am a full stack developer with a passion for creating
+              beautiful and functional web applications. I have experience in
+              working with various technologies, such as HTML, CSS, JavaScript,
+              React, Node.js, MongoDB, and more. I enjoy learning new skills and
+              exploring new challenges in the web development field.
             </p>
-            <div className="mb-5 flex items-center gap-5 px-5">
+            <p className="mb-5 px-5 font-mono text-lg md:px-0 md:text-2xl">
+              In this portfolio, you can find some of the projects that I have
+              worked on, both individually and collaboratively. You can also
+              learn more about me, my skills, and my interests. Feel free to
+              contact me if you have any questions or feedback. I am always open
+              to new opportunities and collaborations. Thank you for visiting my
+              website!
+            </p>
+            {/* <div className="mb-5 flex items-center gap-5 px-5">
               <p className="text-xl font-semibold">Socials:</p>
               <a
                 href="https://www.linkedin.com/in/edward-von/"
@@ -73,7 +86,7 @@ function Home() {
                   alt="Dev.to Logo"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

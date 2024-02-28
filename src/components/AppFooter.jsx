@@ -45,7 +45,7 @@ function AppFooter() {
         </a>
       </div>
       <p className="mb-4">
-        Created October 2023. A UC Berkley Full Stack Web Development Project.
+        &copy; 2023 Edward Vonschondorf. All rights reserved.
       </p>
       <button
         onClick={handleClickToTop}

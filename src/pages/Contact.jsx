@@ -2,7 +2,7 @@
 
 function Contact() {
   const handleSubmit = () => {
-    alert("This form doesn't work yet. Please email me at ");
+    alert("This form doesn't work yet. Please email me at me@edward-vonschondorf.dev");
   };
 
   return (
@@ -10,6 +10,12 @@ function Contact() {
       <h1 className="mb-10 text-center text-5xl font-semibold uppercase md:text-8xl md:font-normal">
         Contact Me
       </h1>
+      <p className="mb-10 text-center text-2xl md:text-3xl">
+        Please send an E-mail to{" "} 
+        <a href="mailto:me@edward-vonschondorf.dev" className="text-orange hover:underline transition-all duration-300">
+          me@edward-vonschondorf.dev
+        </a>
+      </p>
       <form
         onSubmit={handleSubmit}
         className="m-auto flex w-full flex-col rounded-lg bg-lightbluegray p-5 shadow-lg md:w-3/4 lg:w-7/12"
@@ -21,7 +27,7 @@ function Contact() {
           type="text"
           name="name"
           id="name"
-          placeholder="Dio Brando"
+          // placeholder="Dio Brando"
           required
           className="mb-5 rounded-md p-5 font-mono transition duration-500 ease-in-out focus:border-transparent focus:outline-none focus:ring-2 focus:ring-orange"
         />
@@ -32,7 +38,7 @@ function Contact() {
           type="email"
           name="email"
           id="email"
-          placeholder="diobrando@jojo.com"
+          // placeholder="diobrando@jojo.com"
           required
           className="mb-5 rounded-md p-5 font-mono transition duration-500 ease-in-out focus:border-transparent focus:outline-none focus:ring-2 focus:ring-orange"
         />
@@ -42,7 +48,7 @@ function Contact() {
         <textarea
           name="message"
           id="message"
-          placeholder="Za Warudo! Wrrrrrrryyyyyyy!"
+          // placeholder="Za Warudo! Wrrrrrrryyyyyyy!"
           required
           className="mb-5 h-40 resize-none rounded-md p-5 font-mono transition duration-500 ease-in-out focus:border-transparent focus:outline-none focus:ring-2 focus:ring-orange"
         />
