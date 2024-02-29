@@ -1,4 +1,5 @@
 import { Link as RouterLink, NavLink } from "react-router-dom";
+import LogoURL from "/assets/img/logo.svg";
 
 function AppHeader() {
   return (
@@ -6,9 +7,9 @@ function AppHeader() {
       <nav className="container m-auto flex items-center justify-between">
         <RouterLink
           to={"/"}
-          className="text-xl font-bold text-stone-800 transition-all duration-300 ease-in-out hover:tracking-wider hover:text-stone-500 md:text-3xl"
+          className="transition-all duration-300 ease-in-out hover:scale-125"
         >
-          &#123;EV&#125;
+          <img src={LogoURL} alt="EV Logo" />
         </RouterLink>
         <ul className="flex items-center gap-4 py-4 text-sm font-semibold md:gap-12 md:text-lg">
           <li>
