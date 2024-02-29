@@ -3,7 +3,7 @@ function AppFooter() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <footer className="bg-stone-900 px-5 py-20 text-center text-stone-200 font-sans">
+    <footer className="bg-stone-900 px-5 py-20 text-center font-sans text-stone-200">
       <div className="mb-5 flex justify-center gap-12 font-sans text-lg">
         <a
           href="https://www.linkedin.com/in/edward-von/"

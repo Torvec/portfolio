@@ -2,10 +2,10 @@ import { Link as RouterLink, NavLink } from "react-router-dom";
 
 function AppHeader() {
   return (
-    <header className="container m-auto">
-      <nav className="flex items-center justify-between">
+    <header className="border-b-2 border-stone-500">
+      <nav className="container m-auto flex items-center justify-between">
         <RouterLink
-          to={"/home"}
+          to={"/"}
           className="text-xl font-bold text-stone-800 transition-all duration-300 ease-in-out hover:tracking-wider hover:text-stone-500 md:text-3xl"
         >
           &#123;EV&#125;
@@ -23,7 +23,7 @@ function AppHeader() {
           </li>
           <li>
             <a
-              className="rounded-2xl border-2 border-orange-500 px-4 py-1.5 text-orange-500 transition-all duration-300 ease-in-out hover:rounded-full hover:px-6 hover:text-stone-500 hover:border-stone-500"
+              className="rounded-2xl border-2 border-orange-500 px-4 py-1.5 text-orange-500 transition-all duration-300 ease-in-out hover:rounded-full hover:border-stone-500 hover:px-6 hover:text-stone-500"
               href="mailto:me@edward-vonschondorf.dev"
             >
               Contact Me

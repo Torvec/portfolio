@@ -12,9 +12,3 @@ CloudFlare Pages Deployment
 - React
 - React Router
 - Tailwind CSS
-
-# Future Developments
-See Portfolio v3 for future developments: [Portfolio v3](https://github.com/Torvec/portfolio_v3)
-
-# Project Status
-Completed October 2023

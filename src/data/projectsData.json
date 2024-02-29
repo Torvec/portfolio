@@ -56,12 +56,7 @@
     "image": "./assets/img/reactPortfolio.png",
     "repository": "https://github.com/Torvec/portfolio_v2",
     "deployment": "https://edward-vonschondorf.dev/",
-    "techStack": [
-      "React",
-      "React Router",
-      "Vite",
-      "Tailwind CSS"
-    ],
+    "techStack": ["React", "React Router", "Vite", "Tailwind CSS"],
     "dateCompleted": "October 2023",
     "featured": true
   },

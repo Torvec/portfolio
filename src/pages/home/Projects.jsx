@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import projectsData from "../data/projectsData";
+import projectsData from "../../data/projectsData";
 
 function Projects({ order = "reverse", limit = null, featured = false }) {
   let projectsToDisplay =
