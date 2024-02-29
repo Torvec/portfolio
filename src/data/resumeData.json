@@ -1,8 +1,18 @@
 {
   "experience": [
     {
+      "company": "Freelance",
+      "dates": "Oct 2023 - Present",
+      "title": "Full Stack Web Developer",
+      "location": "Fremont, CA, USA",
+      "accomplishments": [
+        "Continuously and enthusiastically learning new technologies and languages.",
+        "Adding to my portfolio by creating new personal projects and collaborating with my fellow UC Berkeley Extension alumni."
+      ]
+    },
+    {
       "company": "Tesla Motors Inc.",
-      "dates": "Oct 2019 - Present",
+      "dates": "Oct 2019 - Jan 2024",
       "title": "Automation Controls Technician IV",
       "location": "Fremont, CA, USA",
       "accomplishments": [
@@ -63,8 +73,8 @@
     },
     {
       "institution": "E and M Training Course",
-      "program": "Siemens TIA Portal Software Development I and II",
-      "dates": "Dec 2022 (Two Weeks)",
+      "program": "Siemens TIA Portal Software Development I/II",
+      "dates": "Dec 2022",
       "details": [
         "Two-part instructor-led, hands-on course using TIA Portal software to integrate PLC, HMI, and Variable Frequency Drive (VFD) controls.",
         "Learned how to program in Ladder Logic, Function Block Diagrams, Sequential Function Charts, and Structured Text."

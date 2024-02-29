@@ -1,15 +1,17 @@
-// The Portfolio page component
-
 import PortfolioProjects from "../components/PortfolioProjects";
 
 function Portfolio() {
   return (
-    <section className="container m-auto px-5 pb-20 pt-32 text-black xl:px-0">
-      <h1 className="mb-10 text-center text-5xl font-semibold uppercase md:text-8xl md:font-normal">
+    <>
+    <h1 className="py-20 text-center text-5xl font-semibold uppercase md:text-8xl md:font-normal bg-stone-100">
         My Portfolio
       </h1>
-      <PortfolioProjects />
+    <section className="bg-orange-500">
+      <div className="container m-auto py-10 xl:px-0">
+        <PortfolioProjects />
+      </div>
     </section>
+    </>
   );
 }
 

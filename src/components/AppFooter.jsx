@@ -1,56 +1,42 @@
-// The Footer component for the app
-
 function AppFooter() {
-  
   const handleClickToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-    console.log("Clicked to top");
   };
-
   return (
-    <footer className="px-5 py-10 text-center font-mono">
-      <div className="mb-5 flex justify-center gap-5">
+    <footer className="bg-stone-900 px-5 py-20 text-center text-stone-200 font-sans">
+      <div className="mb-5 flex justify-center gap-12 font-sans text-lg">
         <a
           href="https://www.linkedin.com/in/edward-von/"
           target="_blank"
           rel="noopener noreferrer"
+          className="transition-all duration-300 ease-in-out hover:text-orange-500"
         >
-          <img
-            src="./assets/img/linkedin_rect_logo.svg"
-            className="h-10 w-full transition-all duration-500 ease-in-out hover:scale-125 hover:shadow-lg"
-            alt="LinkedIn Logo"
-          />
+          LinkedIn
         </a>
         <a
           href="https://github.com/Torvec"
           target="_blank"
           rel="noopener noreferrer"
+          className="transition-all duration-300 ease-in-out hover:text-orange-500"
         >
-          <img
-            src="./assets/img/github_square_logo.svg"
-            className="h-10 w-full transition-all duration-500 ease-in-out hover:scale-125 hover:shadow-lg"
-            alt="GitHub Logo"
-          />
+          GitHub
         </a>
         <a
           href="https://dev.to/torvec"
           target="_blank"
           rel="noopener noreferrer"
+          className="transition-all duration-300 ease-in-out hover:text-orange-500"
         >
-          <img
-            src="./assets/img/devto_logo.svg"
-            className="h-10 w-full transition-all duration-500 ease-in-out hover:scale-125 hover:shadow-lg"
-            alt="Dev.to Logo"
-          />
+          Dev.to
         </a>
       </div>
-      <p className="mb-4">
+      <p className="mb-5">
         &copy; 2023 Edward Vonschondorf. All rights reserved.
       </p>
       <button
-        onClick={handleClickToTop}
         type="button"
-        className="w-max rounded-xl bg-black px-4 py-2 uppercase text-white transition duration-500 ease-in-out hover:bg-orange hover:text-black"
+        onClick={handleClickToTop}
+        className="rounded-xl bg-stone-700 px-4 py-2 transition-all duration-300 ease-in-out hover:bg-orange-500 hover:px-8 hover:text-stone-900"
       >
         Top
       </button>

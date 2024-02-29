@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* This is so the active class will be used by react router's NavLink components */
+/* This is for the active class that is used by react router's NavLink components */
 
 .nav-link {
-  @apply py-2 uppercase text-orange transition-all duration-500 ease-in-out hover:border-b-2 hover:border-white hover:bg-lightbluegray hover:px-2 hover:tracking-wide hover:text-darkgray hover:shadow-lg;
+  @apply py-2 text-orange-500 transition-all duration-500 ease-in-out hover:tracking-wider hover:text-stone-500;
 }
 
 .active {
-  @apply border-b-2 border-orange text-orange;
+  @apply border-b-2 border-orange-500 text-orange-500;
 }
