@@ -1,13 +1,13 @@
 import resumeData from "../data/resumeData";
 
-function Resume() {
+export default function Resume() {
   return (
     <>
       <h1 className="bg-stone-100 py-20 text-center text-5xl font-semibold uppercase md:text-8xl md:font-normal">
         My Resume
       </h1>
       {/* Professional Experience Section */}
-      <section className="m-auto bg-stone-50 px-20 py-10">
+      <section className="m-auto bg-stone-50 px-5 md:px-20 py-10">
         <>
           {resumeData.experience.map((experience, index) => (
             <div key={index}>
@@ -16,7 +16,7 @@ function Resume() {
                   <h3 className="text-2xl">{experience.company}</h3>
                   <h4 className="text-xl">{experience.title}</h4>
                 </div>
-                <div className="text-right">
+                <div className="md:text-right">
                   <p>{experience.location}</p>
                   <p>{experience.dates}</p>
                 </div>
@@ -33,10 +33,10 @@ function Resume() {
         </>
       </section>
       {/* Education and Training Section */}
-      <section className="m-auto bg-stone-200 px-20 py-10">
+      <section className="m-auto bg-stone-200 px-5 md:px-20 py-10">
         <div className="flex flex-col gap-6 md:flex-row">
           {resumeData.education.map((education, index) => (
-            <div key={index} className="w-1/4">
+            <div key={index} className="md:w-1/4">
               <h3 className="text-2xl">{education.institution}</h3>
               <h4 className="text-lg">{education.program}</h4>
               <p className="mb-2">{education.dates}</p>
@@ -52,7 +52,7 @@ function Resume() {
         </div>
       </section>
       {/* Skills and Software Section */}
-      <section className="bg-orange-500 px-5 py-20 xl:px-0">
+      <section className="bg-orange-500 px-5 py-20">
         <h2 className="mb-10 text-center text-5xl font-semibold uppercase">
           Skills, Software, &amp; Programming Languages
         </h2>
@@ -106,5 +106,3 @@ function Resume() {
     </>
   );
 }
-
-export default Resume;

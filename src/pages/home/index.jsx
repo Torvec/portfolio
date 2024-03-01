@@ -4,7 +4,7 @@ import HeroSection from "./HeroSection";
 import AboutSection from "./AboutSection";
 import ProjectsSection from "./ProjectsSection";
 
-function Home() {
+export default function Home() {
   return (
     <>
       <HeroSection />
@@ -25,5 +25,3 @@ function Home() {
     </>
   );
 }
-
-export default Home;

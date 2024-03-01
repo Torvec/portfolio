@@ -4,10 +4,10 @@ import LogoURL from "/assets/img/logo.svg";
 function AppHeader() {
   return (
     <header className="border-b-2 border-stone-500">
-      <nav className="container m-auto flex items-center justify-between">
+      <nav className="container px-5 m-auto flex items-center justify-between">
         <RouterLink
           to={"/"}
-          className="transition-all duration-300 ease-in-out hover:scale-125"
+          className="transition-all duration-300 ease-in-out hover:scale-110"
         >
           <img src={LogoURL} alt="EV Logo" />
         </RouterLink>
