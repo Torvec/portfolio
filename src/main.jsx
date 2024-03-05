@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <BrowserRouter>{/* The basename prop is so Github pages works properly */}
+   <BrowserRouter basename='/portfolio_v2'>{/* The basename prop is so Github pages works properly */}
       <App />
     </BrowserRouter>
   </React.StrictMode>
